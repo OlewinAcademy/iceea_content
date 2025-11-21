@@ -1,0 +1,136 @@
+{
+  "appVersion": "1.0.0",
+  "conferences": {
+    "upcoming": {
+      "title": "ICEEA 2026",
+      "date": "October 15-17, 2026",
+      "location": "New York, USA",
+      "description": "The upcoming International Conference on Engineering, Education and Applications",
+      "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/iceea2026.jpg",
+      "registrationOpen": true,
+      "details": [
+        "3-day conference with international speakers",
+        "Paper presentations and workshops",
+        "Networking opportunities",
+        "Certificate of participation"
+      ]
+    },
+    "current": {
+      "title": "ICEEA 2025",
+      "date": "March 20-22, 2025",
+      "location": "London, UK",
+      "description": "Current conference featuring cutting-edge research and innovations",
+      "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/iceea2025.jpg",
+      "schedule": [
+        {
+          "day": "Day 1",
+          "events": [
+            {
+              "time": "09:00 AM",
+              "title": "Opening Ceremony",
+              "speaker": "Dr. John Smith"
+            },
+            {
+              "time": "10:30 AM",
+              "title": "Keynote Speech",
+              "speaker": "Prof. Jane Doe"
+            }
+          ]
+        }
+      ]
+    },
+    "past": [
+      {
+        "title": "ICEEA 2024",
+        "date": "March 15-17, 2024",
+        "location": "Paris, France",
+        "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/iceea2024.jpg",
+        "attendees": 500,
+        "papers": 120
+      },
+      {
+        "title": "ICEEA 2023",
+        "date": "October 10-12, 2023",
+        "location": "Tokyo, Japan",
+        "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/iceea2023.jpg",
+        "attendees": 450,
+        "papers": 110
+      }
+    ]
+  },
+  "dynamicSections": [
+    {
+      "id": "speakers",
+      "title": "Featured Speakers",
+      "type": "speakers",
+      "description": "Meet our distinguished speakers",
+      "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/speakers.jpg",
+      "items": [
+        {
+          "name": "Dr. John Smith",
+          "title": "Professor of Engineering",
+          "organization": "MIT",
+          "bio": "Leading expert in AI and Machine Learning",
+          "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/speaker1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "title": "Conference Schedule",
+      "type": "schedule",
+      "description": "Full schedule of events and sessions",
+      "pdfUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/pdfs/schedule.pdf"
+    },
+    {
+      "id": "venue",
+      "title": "Venue Information",
+      "type": "venue",
+      "description": "Location and accommodation details",
+      "image": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/venue.jpg",
+      "details": [
+        "Address: 123 Conference Center, London, UK",
+        "Nearby Hotels: Hilton, Marriott, Holiday Inn",
+        "Transportation: Metro, Bus, Taxi services available",
+        "Parking: Free parking for attendees"
+      ]
+    },
+    {
+      "id": "guidelines",
+      "title": "Author Guidelines",
+      "type": "document",
+      "description": "Paper submission and presentation guidelines",
+      "pdfUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/pdfs/guidelines.pdf",
+      "details": [
+        "Paper format: IEEE format",
+        "Maximum length: 6 pages",
+        "Submission deadline: December 31, 2024",
+        "Review process: Double-blind peer review"
+      ]
+    },
+    {
+      "id": "gallery",
+      "title": "Photo Gallery",
+      "type": "gallery",
+      "description": "Photos from previous conferences",
+      "images": [
+        "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/gallery1.jpg",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/gallery2.jpg",
+        "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/gallery3.jpg"
+      ]
+    },
+    {
+      "id": "sponsors",
+      "title": "Our Sponsors",
+      "type": "sponsors",
+      "description": "Thanks to our generous sponsors",
+      "items": [
+        {
+          "name": "TechCorp",
+          "logo": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/sponsor1.png",
+          "website": "https://techcorp.com"
+        }
+      ]
+    }
+  ]
+}
